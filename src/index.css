@@ -1,0 +1,31 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  
+  
+  
+  
+}
+  
+
+
+body {
+  background-color: #161616;
+  margin: 0%;
+}
+main {
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  /* margin: 145px 0px 100px 0px; */
+  margin: 140px 0px 0px 0px;
+}
+
+
+
