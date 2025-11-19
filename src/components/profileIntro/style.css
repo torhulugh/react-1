@@ -1,0 +1,379 @@
+
+#intro--nd--myWorksCategories{
+  background-color: #0f0f0f55;
+  width: 85%;
+  max-width: 1280px;
+  height: fit-content;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 3px 15px #0c0c0caf;
+  border-radius: 60px;
+  border: 0.5px solid #5555550e;
+  backdrop-filter: brightness() opacity(50%) blur(8px);
+  background-image: linear-gradient(
+    200deg,
+    rgba(8, 8, 8, 0.185) 0%,
+    #22222220 40%,
+    #25252520 95%
+  );
+  border-radius: 30px;
+  gap: 20px;
+  padding: 50px 0px 50px 0px;
+  margin-top: 30px;
+}
+em{
+  display: inline-flex;
+  position: relative;
+  font-style: normal;
+  font-weight: 600;
+  color: #e2dfdf;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  margin-left: 10px;
+}
+#grid--bacground--img{
+    width: 80%;
+    height: aut0;
+    display: flex;
+    position: absolute;
+    transform: translate(0px,-150px);
+    opacity: 30%;
+}
+#starBacklight--bacground--img{
+    width: 80%;
+    height: aut0;
+    display: flex;
+    position: absolute;
+    transform: translate(0px,200px);
+}
+/* ---> intro profile section <--- */
+#intro-profile-continer {
+  width: 90%;
+  height: 255px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 55px;
+}
+#intro--profile--img--container {
+  max-width: 30%;
+  width: 290px;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0px 0px 0px 0px;
+}
+#intro--profile--img{
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0px 0px 0px 0px;
+  z-index: 4;
+}
+#animated--avatar{
+  display: flex;
+  width: 90%;
+  height: auto;
+  position: absolute;
+  border-radius: 100px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0px 0px 0px 0px;
+}
+#intro--txt {
+  display: inline;
+  position: relative;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+  color: #979292;
+  max-width: 700px;
+  width: 60%;
+  height: 400px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 10px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+/* ---> My works category section <--- */
+#myWork--category--container {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.categoryTriIcons--container {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  position: relative;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+#myWork--categoryIcons--container {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  margin: auto;
+  position: relative;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 50px;
+}
+.divider {
+  width: 95%;
+  height: 0.0049rem;
+  background: #222;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.myworkCategoryIcon {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.myworkCategoryIcon--backdrop {
+  width: 100px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  transform: translateY(-55px);
+  opacity: 20%;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.myworkCategoryIcon:hover {
+  border-radius: 30px;
+  scale: 105%;
+  z-index: 200;
+  transition: all 0.5s ease-in-out;
+  }
+/* \\\\\\\\\\ .7. MEDIA QUERIES //////*/
+
+/* <<<<<<<<>>>>>>>>  desktop2 <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 1065px) {
+  #intro--nd--myWorksCategories {
+    background-color: transparent;
+    max-width: 1280px;
+    height: fit-content;
+    padding: 20px 0px 20px 0px;
+    margin-top: 10px;
+    gap: 10px;
+    background-image: none;
+    box-shadow: none;
+    border: none;
+  }
+  #intro-profile-continer {
+    background-color: #0f0f0f55;
+  width: 100%;
+  max-width: 1280px;
+  height: fit-content;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 3px 15px #0c0c0caf;
+  border-radius: 60px;
+  border: 0.5px solid #5555550e;
+  backdrop-filter: brightness() opacity(50%) blur(8px);
+  background-image: linear-gradient(
+    200deg,
+    rgba(8, 8, 8, 0.185) 0%,
+    #22222220 40%,
+    #25252520 95%
+  );
+  border-radius: 30px;
+  gap: 20px;
+  padding: 50px 0px 50px 0px;
+  overflow: hidden;
+  }
+  #myWork--categoryIcons--container{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .categoryTriIcons--container {
+    justify-content: center;
+    gap:  150px;
+  }
+#myWork--category--container{
+  margin-top: 70px;
+}
+.capsuleCards--Container {
+    width: 700px;
+    height: auto;
+    
+  }
+}
+/* <<<<<<<>>>>>>>> 7a Tablet  <<<<<<<>>>>>>>> */
+@media screen and (max-width: 768px) {
+  main {
+    margin: 10px;
+  }
+  #myWork--categoryIcons--container{
+    flex-direction: column;
+    gap: 50px;
+  }
+  #intro--txt {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 90%;
+    height: auto;
+  }
+  .categoryTriIcons--container {
+    gap:  100px;
+  }
+  .category-icons-container {
+    max-width: 462px;
+  }
+  .capsuleCards--Container {
+    width: 800px;
+    height: auto;
+    
+  }
+}
+/* <<<<<<<>>>>>>>> the inbetween mobile and tablet <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 615px) {
+  .categoryTriIcons--container {
+    gap: 50px;
+  }
+}
+/* <<<<<<<<>>>>>>>> .7b. Mobile <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 480px) {
+  main {
+    margin: 10px;
+  }
+  #intro--nd--myWorksCategories{
+    width: 98%;
+    height: fit-content;
+    padding: 20px 0px 20px 0px;
+    gap: 10px;
+    backdrop-filter: brightness() opacity(70%) blur(8px);
+  background-image: linear-gradient(
+    50deg,
+    #1b1a1a7a,
+    #0f0f0f92,
+    #1b1a1a94,
+    #0f0f0f94,
+    #2726266b
+  );
+    border: 1px solid #dfdafa0e;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    margin-top: 65px;
+  }
+  /* --- .7b2. intro profile  (MOBILE)  --- */
+  #intro-profile-continer {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0%;
+    padding: 0%;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    background-image: none;
+    font-size: 1rem;
+    position: relative;
+  }
+  #grid--bacground--img{
+    width: 80%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    transform: translate(0px,-250px);
+    opacity: 100%;
+  }
+  #starBacklight--bacground--img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    transform: translate(0px,-100px);
+  }
+  #intro--profile--img--container {
+    max-width: 80%;
+    width: 290px;
+    height: auto;
+  }
+  #animated--avatar{
+    width: 45%;
+    height: auto;
+  }
+  #intro-txt {
+    font-size: 0.5rem;
+    line-height: 2rem;
+    width: 80%;
+    height: auto;
+  }
+/* ---> my works categoty section (MOBILE)  <--- */
+ #myWork--category--container {
+    gap: 10px;
+    margin: 0%;
+    margin-top: 10px;
+  }
+#myWork--categoryIcons--container{
+    flex-direction: column;
+    margin-top: 20px;
+   gap: 0px;
+  }
+  .categoryTriIcons--container {
+    justify-content: center;
+    gap:  30px;
+  }
+  .category-icons-container {
+    gap: 40px;
+  }
+  .myworkCategoryIcon {
+    width: 80px;
+  }
+  .myworkCategoryIcon--backdrop {
+    width: 80px;
+    height: 80px;
+    transform: translateY(-40px);
+  }
+  
+  
+
+  
+  
+
+
+}
