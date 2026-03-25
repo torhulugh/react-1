@@ -5,7 +5,7 @@ import RecentActivities from "../../components/capsuleCard/recentActivities";
 export default function Home() {
   return (
     <>
-      <Profile_Intro />
+      {/* <Profile_Intro /> */}
       <RecentActivities />
     </>
   );

@@ -10,7 +10,7 @@ export default function RecentActivities() {
           src="icn/favourite-icon.svg"
           alt="star icon for recent activities section header"
         />
-        <p className="squircleStyle--header--title">Recent Activities</p>
+        <p className="squircleStyle--header--title">Q-C Stream</p>
       </div>
       {/* capsule cards container */}
       <div className="capsuleCards--Container">
@@ -22,14 +22,14 @@ export default function RecentActivities() {
             <div className="capsuleCard-backdrop-grad"></div>
             <img
               className="capsuleCard-img"
-              src="featured-img/Trusi.png"
+              src="img/j2.png"
               alt=""
             />
             <div className="capsuleCard-txt">
-              <h4>Trusi website design:</h4>
+              <h4>Coffe with the king:</h4>
               <p className="capsuleCard-discription">
-                A futuristic modern minimalist website design, as sophistication
-                marries simplicity.
+                See how very much our Father loves us, for He calls us His
+                children.
               </p>
             </div>
           </div>

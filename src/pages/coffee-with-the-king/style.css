@@ -1,0 +1,26 @@
+body {
+    background-color: #EDE6DC   ;
+}
+h1, h2, h3, h4, h5, h6, p{
+    color: #4C2E1A;
+
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    text-align: center;
+}
+#quo--verse{
+    color: aliceblue;
+    background-color: #4C2E1A;
+    font-size: 1.5rem;
+    font-style: italic;
+    width: 90%;
+    margin-top: 2rem;
+    padding: 20px;
+    border-radius: 10px;
+}
+img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}

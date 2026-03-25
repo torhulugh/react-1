@@ -10,17 +10,17 @@ import AboutMe from "./pages/AboutMe";
 import ContactMe from "./pages/contactMe";
 import Profile from "./pages/profile";
 import Freebies from "./pages/freebies";
+import CoffeeWithJesus from "./pages/coffee-with-the-king";
 
 import "./App.css";
 
 function App() {
   return (
     <BrowserRouter>
-      <Desktop_Header />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/myworks" element={<MyWorks />} />
+          <Route path="/coffee-with-jesus" element={<CoffeeWithJesus />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<ContactMe />} />
