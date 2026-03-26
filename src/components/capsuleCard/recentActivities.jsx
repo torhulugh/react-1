@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import "./capsuleCard.css";
 
 export default function RecentActivities() {
@@ -15,7 +16,7 @@ export default function RecentActivities() {
       {/* capsule cards container */}
       <div className="capsuleCards--Container">
         {/* capsule card 1 */}
-        <a className="capuslecard--link" href="">
+        <Link className="capuslecard--link" to="/coffee-with-the-king">
           <div className="capsule--card">
             <div className="capsuleCard-foreground-grad"></div>
             <div className="capsuleCard-background"></div>
@@ -33,9 +34,9 @@ export default function RecentActivities() {
               </p>
             </div>
           </div>
-        </a>
+        </Link>
         {/* capsule card 2 */}
-        <a className="capuslecard--link" href="">
+        <Link className="capuslecard--link" to="">
           <div className="capsule--card">
             <div className="capsuleCard-foreground-grad"></div>
             <div className="capsuleCard-background"></div>
@@ -53,9 +54,9 @@ export default function RecentActivities() {
               </p>
             </div>
           </div>
-        </a>
+        </Link>
         {/* capsule card 3 */}
-        <a className="capuslecard--link" href="">
+        <Link className="capuslecard--link" to="">
           <div className="capsule--card">
             <div className="capsuleCard-foreground-grad"></div>
             <div className="capsuleCard-background"></div>
@@ -73,9 +74,9 @@ export default function RecentActivities() {
               </p>
             </div>
           </div>
-        </a>
+        </Link>
         {/* capsule card 4 */}
-        <a className="capuslecard--link" href="">
+        <Link className="capuslecard--link" to="">
           <div className="capsule--card">
             <div className="capsuleCard-foreground-grad"></div>
             <div className="capsuleCard-background"></div>
@@ -93,9 +94,9 @@ export default function RecentActivities() {
               </p>
             </div>
           </div>
-        </a>
+        </Link>
         {/* capsule card 5 */}
-        <a className="capuslecard--link" href="">
+        <Link className="capuslecard--link" to="">
           <div className="capsule--card">
             <div className="capsuleCard-foreground-grad"></div>
             <div className="capsuleCard-background"></div>
@@ -109,9 +110,9 @@ export default function RecentActivities() {
               </p>
             </div>
           </div>
-        </a>
+        </Link>
         {/* capsule card 6 */}
-        <a className="capuslecard--link" href="">
+        <Link className="capuslecard--link" to="">
           <div className="capsule--card">
             <div className="capsuleCard-foreground-grad"></div>
             <div className="capsuleCard-background"></div>
@@ -129,7 +130,7 @@ export default function RecentActivities() {
               </p>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
     </section>
   );
