@@ -11,6 +11,7 @@ import ContactMe from "./pages/contactMe";
 import Profile from "./pages/profile";
 import Freebies from "./pages/freebies";
 import CoffeeWithJesus from "./pages/coffee-with-the-king";
+import Suyarama from "./pages/suyarama";
 
 import "./App.css";
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/contact" element={<ContactMe />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/freebies" element={<Freebies />} />
+          <Route path="/suyarama" element={<Suyarama />} />
 
         </Routes>
         {/* <Freebies /> */}

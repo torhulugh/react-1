@@ -6,12 +6,12 @@ export default function RecentActivities() {
     <section id="recentAcivities--container">
       {/* Recent activities section header */}
       <div className="squircleStyle--header">
-        <img
+        {/* <img
           className="squircleStyle--header--icn"
           src="icn/favourite-icon.svg"
           alt="star icon for recent activities section header"
-        />
-        <p className="squircleStyle--header--title">Q-C Stream</p>
+        /> */}
+        <p className="squircleStyle--header--title">Stream</p>
       </div>
       {/* capsule cards container */}
       <div className="capsuleCards--Container">
