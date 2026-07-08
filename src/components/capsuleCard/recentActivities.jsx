@@ -47,7 +47,7 @@ export default function RecentActivities() {
               alt=""
             />
             <div className="capsuleCard-txt">
-              <h4>Visual Magic Content:</h4>
+              <h4>Suyarama:</h4>
               <p className="capsuleCard-discription">
                 simplifying asset library web experience focused on the needs of
                 modern day users.
@@ -67,7 +67,7 @@ export default function RecentActivities() {
               alt=""
             />
             <div className="capsuleCard-txt">
-              <h4>Linkmaidien:</h4>
+              <h4>Fatimiyahair:</h4>
               <p className="capsuleCard-discription">
                 An efficient, aesthetic and satisfying link management tool.
                 designed and built to meet user needs and desires
@@ -87,7 +87,7 @@ export default function RecentActivities() {
               alt=""
             />
             <div className="capsuleCard-txt">
-              <h4>Circle of Vision:</h4>
+              <h4>Vandeferic</h4>
               <p className="capsuleCard-discription">
                 Designing an inclusive world, that listens and speaks to all
                 individual users.
@@ -103,7 +103,7 @@ export default function RecentActivities() {
             <div className="capsuleCard-backdrop-grad"></div>
             <img className="capsuleCard-img" src="img/PR0JECT 365.png" alt="" />
             <div className="capsuleCard-txt">
-              <h4>Project 365 Website:</h4>
+              <h4>Jewelryfic:</h4>
               <p className="capsuleCard-discription">
                 Re-imaginging music streaming campaigning's and new musical
                 talent discovery.

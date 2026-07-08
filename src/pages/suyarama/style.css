@@ -1,26 +1,50 @@
-body {
-    background-color: #EDE6DC   ;
-}
-h1, h2, h3, h4, h5, h6, p{
-    color: #4C2E1A;
 
+
+.brand---q-c--page{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 90%;
-    text-align: center;
-}
-#quo--verse{
-    color: aliceblue;
-    background-color: #4C2E1A;
-    font-size: 1.5rem;
-    font-style: italic;
-    width: 90%;
-    margin-top: 2rem;
-    padding: 20px;
+    align-items: center;
+    width: 50%;
+    height: 92vh;
+    margin: 30px 0 0 0;
+    mnargin-top: 100px;
+    background-color: #fdfdfd;
+    border:#eeeae7 2px solid;
+
+    box-shadow: inset 0px 0px 40px 0px #c6e9e0;
     border-radius: 10px;
+    padding: 0px;
 }
-img {
-    width: 90%;
+#brand--logo{
+    width: 10%;
     height: auto;
     border-radius: 10px;
+}
+.brand--info{
+    color: #6f777c;
+    font-size: 1rem;
+    width: 80%;
+    text-align: center;
+}
+.brand--link{
+    display: flex;
+    position: relative;
+    font-size: 1rem;
+    width: fit-content;
+    color: #109c10;
+}
+.brand--link img {
+    display: flex;
+    justify-content: center;
+    width: 20px;
+
+}
+.brand--link p {
+    display: flex;
+    width: 100%;
+    color: #109c10;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
+
 }
