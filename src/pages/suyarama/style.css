@@ -6,15 +6,19 @@
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 92vh;
+    height: fit-content;
     margin: 30px 0 0 0;
-    mnargin-top: 100px;
+    padding: 20px 0px 20px 0px;
     background-color: #fdfdfd;
     border:#eeeae7 2px solid;
-
     box-shadow: inset 0px 0px 40px 0px #c6e9e0;
     border-radius: 10px;
-    padding: 0px;
+}
+.brand--h1{
+    color: #109c10;
+    font-size: 2rem;
+    width: 90%;
+    text-align: center;
 }
 #brand--logo{
     width: 10%;
@@ -32,7 +36,9 @@
     position: relative;
     font-size: 1rem;
     width: fit-content;
+    hight: fit-content;
     color: #109c10;
+    margin: 20px 0px 0px 0px;
 }
 .brand--link img {
     display: flex;
@@ -47,4 +53,33 @@
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 10px;
 
+}
+.menu--img{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 300px;
+}
+/* <<<<<<<>>>>>>>> the inbetween mobile and tablet <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 615px) {
+  .categoryTriIcons--container {
+    gap: 50px;
+  }
+}
+/* <<<<<<<<>>>>>>>> .7b. Mobile <<<<<<<<>>>>>>>> */
+@media screen and (max-width: 480px) {
+  .categoryTriIcons--container {
+    gap: 30px;
+  }
+  .brand---q-c--page{
+    width: 90%;
+    height: 92vh;
+    margin: 30px 0 0 0;
+    mnargin-top: 100px;
+    background-color: #fdfdfd;
+    border:#eeeae7 2px solid;
+
+    box-shadow: inset 0px 0px 40px 0px #c6e9e0;
+    border-radius: 10px;
+    padding: 0px;
 }
