@@ -13,11 +13,11 @@ export default function Header({ Suyarama }) {
           unforgettable dining experiences that make everyone feel at home.
         </h2>
 
-        <Link className="Brand--link" to="/suyarama">
+        <Link className="Brand--link" to="https://www.instagram.com/suya_rama/">
           <img src="/img/instagram-icn.svg" alt="" />
           <p>follow suyarama on Instagram</p>
         </Link>
-        <Link className="Brand--link" to="/suyarama">
+        <Link className="Brand--link" to="https://www.tiktok.com/@nguvendan4444">
           <img src="" alt="" />
           <p>follow suyarama on TikTok</p>
         </Link>
