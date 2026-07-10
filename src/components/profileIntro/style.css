@@ -243,9 +243,6 @@ em{
 }
 /* <<<<<<<>>>>>>>> 7a Tablet  <<<<<<<>>>>>>>> */
 @media screen and (max-width: 768px) {
-  main {
-    margin: 10px;
-  }
   #myWork--categoryIcons--container{
     flex-direction: column;
     gap: 50px;
@@ -276,9 +273,7 @@ em{
 }
 /* <<<<<<<<>>>>>>>> .7b. Mobile <<<<<<<<>>>>>>>> */
 @media screen and (max-width: 480px) {
-  main {
-    margin: 10px;
-  }
+ 
   #intro--nd--myWorksCategories{
     width: 98%;
     height: fit-content;
