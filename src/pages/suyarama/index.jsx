@@ -1,7 +1,7 @@
 import "./style.css";
 import { Link } from "react-router-dom";
 
-export default function Header({ Suyarama }) {
+export default function Header({ Fatimiyahairs }) {
   return (
     <>
       <section className="brand---q-c--page">

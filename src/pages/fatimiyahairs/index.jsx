@@ -6,7 +6,7 @@ export default function Header({ Suyarama }) {
     <>
       <section className="brand---q-c--page">
         <img className="brand--logo" src="/img/T.H.Asset 12vande.png" alt="" />
-        <h1 className="brand--h1"> Suyarama</h1>
+        <h1 className="brand--h1"> Fatimiyahairs</h1>
         <h3 className="brand--info">
           We bring the rich flavors and vibrant culture of Nigerian street food
           to Canada through authentic recipes, warm hospitality, and
