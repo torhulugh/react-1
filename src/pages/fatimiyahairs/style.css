@@ -27,6 +27,9 @@
   text-align: center;
   margin: 20px 0px 20px 0px;
 }
+.brand--h2.fatimiyahairs {
+  color: #7C4B9F;
+}
 .brand--h3 {
   color: #109c10;
   font-size: 3.5rem;
@@ -36,6 +39,11 @@
 }
 .brand--logo {
   width: 15%;
+  height: auto;
+  border-radius: 10px;
+}
+.brand--logo.fatimiya {
+  width: 100%;
   height: auto;
   border-radius: 10px;
 }
@@ -69,9 +77,19 @@
   border-radius: 10px;
   padding: 10px 20px 10px 20px;
 }
+.brand--link.fatimiya p {
+  color: #7C4B9F;
+  
+}
+/* button hover contoller --------- */
 .brand--link:hover {
   scale: 1.01;
   box-shadow: inset 0px 0px 20px 0px #caf8ca;
+  transition: all 0.3s ease-in-out;
+}
+.brand--link.fatimiya:hover {
+  scale: 1.01;
+  box-shadow: inset 0px 0px 20px 0px #e997d0;
   transition: all 0.3s ease-in-out;
 }
 .brand--link img {
@@ -79,8 +97,8 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
 }
 .brand--link p {
   display: flex;

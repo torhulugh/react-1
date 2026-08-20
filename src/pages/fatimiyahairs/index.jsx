@@ -5,27 +5,25 @@ export default function Header({ Fatimiyahairs }) {
   return (
     <>
       <section className="brand---q-c--page">
-        <img className="brand--logo" src="/img/T.H.Asset 12vande.png" alt="" />
-        <h1 className="brand--h1"> Fatimiyahairs</h1>
+        <img className="brand--logo fatimiya" src="/img/Fatimya-cover-banner.png" alt="" />
         <h3 className="brand--info">
-          We bring the rich flavors and vibrant culture of Nigerian street food
-          to Canada through authentic recipes, warm hospitality, and
-          unforgettable dining experiences that make everyone feel at home.
+          Fatimiya Hair is a beauty brand dedicated to creating beautiful, confident looks through expert hair styling and care. From elegant event styling and natural hair looks to intricate braids, twists, weaving, and dreadlock retightening, we bring creativity, precision, and personal style to every appointment.
+
         </h3>
         <secttion className="brand--links--container">
-          <Link className="brand--link instagram" to="https://www.instagram.com/suya_rama/">
+          <Link className="brand--link fatimiya instagram" to="https://www.instagram.com/fatimiyahair/">
           <img src="/img/instagram-true.png" alt="" />
-          <p>follow suyarama on Instagram</p>
+          <p>follow us on Instagram</p>
         </Link>
-        <Link className="brand--link tiktok" to="https://www.tiktok.com/@nguvendan4444">
+        <Link className="brand--link fatimiya tiktok" to="https://www.tiktok.com/@fatimiya_hair">
           <img src="/img/tiktok-true.png" alt="" />
-          <p>follow suyarama on TikTok</p>
+          <p>follow us on TikTok</p>
         </Link>
         </secttion>
 
         
-        <h2 className="brand--h2" >  Menu </h2>
-        <img className="menu--img" src="/img/sunfest.jpeg" alt="" />
+        <h2 className="brand--h2 fatimiyahairs" >  Our Services </h2>
+        <p></p>
       </section>
     </>
   );
