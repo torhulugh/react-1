@@ -23,7 +23,16 @@ export default function Header({ Fatimiyahairs }) {
 
         
         <h2 className="brand--h2 fatimiyahairs" >  Our Services </h2>
-        <p></p>
+        <ul>
+          <li> Hair Weaving </li>
+          <li>Event Hair Styling</li>
+          <li>Event Hair Styling</li>
+        </ul>
+        <ul>
+          <li>Twists</li>
+          <li>Braiding</li>
+          <li>Dreadlock Retightening</li>
+        </ul>
       </section>
     </>
   );

@@ -36,14 +36,14 @@ export default function RecentActivities() {
           </div>
         </Link>
         {/* capsule card 2 */}
-        <Link className="capuslecard--link" to="">
+        <Link className="capuslecard--link" to="/suyarama">
           <div className="capsule--card">
             <div className="capsuleCard-foreground-grad"></div>
             <div className="capsuleCard-background"></div>
             <div className="capsuleCard-backdrop-grad"></div>
             <img
               className="capsuleCard-img"
-              src="featured-img/vmac.png"
+              src="img/suya.png"
               alt=""
             />
             <div className="capsuleCard-txt">
@@ -56,14 +56,14 @@ export default function RecentActivities() {
           </div>
         </Link>
         {/* capsule card 3 */}
-        <Link className="capuslecard--link" to="">
+        <Link className="capuslecard--link" to="/fatimiyahairs">
           <div className="capsule--card">
             <div className="capsuleCard-foreground-grad"></div>
             <div className="capsuleCard-background"></div>
             <div className="capsuleCard-backdrop-grad"></div>
             <img
               className="capsuleCard-img"
-              src="featured-img/linkmaiden.png"
+              src="img/fatimiya-pp.png"
               alt=""
             />
             <div className="capsuleCard-txt">
@@ -83,7 +83,7 @@ export default function RecentActivities() {
             <div className="capsuleCard-backdrop-grad"></div>
             <img
               className="capsuleCard-img"
-              src="featured-img/circle of visom.png"
+              src="img/i44.png"
               alt=""
             />
             <div className="capsuleCard-txt">
@@ -101,7 +101,7 @@ export default function RecentActivities() {
             <div className="capsuleCard-foreground-grad"></div>
             <div className="capsuleCard-background"></div>
             <div className="capsuleCard-backdrop-grad"></div>
-            <img className="capsuleCard-img" src="img/PR0JECT 365.png" alt="" />
+            <img className="capsuleCard-img" src="img/i2.png" alt="" />
             <div className="capsuleCard-txt">
               <h4>Jewelryfic:</h4>
               <p className="capsuleCard-discription">
@@ -112,18 +112,18 @@ export default function RecentActivities() {
           </div>
         </Link>
         {/* capsule card 6 */}
-        <Link className="capuslecard--link" to="">
+        <Link className="capuslecard--link" to="/tsv">
           <div className="capsule--card">
             <div className="capsuleCard-foreground-grad"></div>
             <div className="capsuleCard-background"></div>
             <div className="capsuleCard-backdrop-grad"></div>
             <img
               className="capsuleCard-img"
-              src="featured-img/STARBUCKS.png"
+              src="img/i3.png"
               alt=""
             />
             <div className="capsuleCard-txt">
-              <h4>Starbucks siren:</h4>
+              <h4>TVS:</h4>
               <p className="capsuleCard-discription">
                 Awakening the siren queen, to further allure the world with her
                 enchanting beauty and irresistible charm.
